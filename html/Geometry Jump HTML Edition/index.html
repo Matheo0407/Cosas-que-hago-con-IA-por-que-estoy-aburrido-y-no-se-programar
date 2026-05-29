@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometry Jump</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="panel brand-panel">
+      <p class="eyebrow">Original rhythm-platformer starter</p>
+      <h1>Geometry Jump</h1>
+      <p class="lead">A legally safe, original foundation inspired by the fast auto-run platformer genre.</p>
+      <nav class="nav-stack">
+        <button data-screen="menu">Home</button>
+        <button data-screen="levels">Play</button>
+        <button data-screen="editor">Editor</button>
+        <button data-screen="community">Community</button>
+      </nav>
+      <div class="status-card">
+        <h2>State</h2>
+        <p id="statusText">Booting Geometry Jump...</p>
+      </div>
+    </aside>
+
+    <main class="stage-panel">
+      <canvas id="gameCanvas" width="1280" height="720"></canvas>
+      <div class="overlay" id="overlay"></div>
+    </main>
+
+    <aside class="panel tools-panel" id="toolsPanel"></aside>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
