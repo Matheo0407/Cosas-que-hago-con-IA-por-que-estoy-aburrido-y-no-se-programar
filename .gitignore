@@ -429,7 +429,7 @@ FodyWeavers.xsd
 *.msm
 *.msp
 # My heavy folders
-builds/builds/
+builds/Builds/
 builds/build/
 installeds/
 .tmp.drivedownload/
