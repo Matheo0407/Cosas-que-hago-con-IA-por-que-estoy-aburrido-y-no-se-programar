@@ -431,6 +431,13 @@ FodyWeavers.xsd
 # My heavy folders
 builds/builds/
 builds/build/
-installeds/
+builds/installeds/
+# Carpetas y temporales de Google Drive
 .tmp.drivedownload/
 .tmp.driveupload/
+bin/
+obj/
+
+# Ignorar por completo la carpeta de VS Code
+.vscode/
+.vscode/**/*
