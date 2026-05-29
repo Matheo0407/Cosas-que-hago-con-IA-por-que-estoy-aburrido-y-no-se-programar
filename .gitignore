@@ -430,3 +430,5 @@ FodyWeavers.xsd
 # My heavy folders
 Builds/
 installeds/
+.tmp.drivedownload/
+.tmp.driveupload/
